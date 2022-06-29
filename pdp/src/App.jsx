@@ -1,7 +1,10 @@
-import React from "react";
+import React, {Suspense} from "react";
 import ReactDOM from "react-dom";
-import Footer from "home/Footer";
-import Header from "home/Header";
+// import Footer from "home/Footer";
+// import Header from "home/Header";
+
+
+//Lazy loading Header
 
 import "./index.scss";
 
